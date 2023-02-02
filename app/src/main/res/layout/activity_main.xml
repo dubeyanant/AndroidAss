@@ -32,6 +32,13 @@
             android:text="@string/f11"
             android:layout_marginVertical="5dp"/>
 
+        <Button
+            android:id="@+id/f12"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/f12"
+            android:layout_marginVertical="5dp"/>
+
     </LinearLayout>
 
 </ScrollView>
