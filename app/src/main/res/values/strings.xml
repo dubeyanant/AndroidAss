@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">AndroidAss</string>
+    <string name="title">Android Assignments</string>
+    <string name="first">Assignment - 12th Jan</string>
+    <string name="second">Assignment - 18th Jan</string>
+    <string name="third">Assignment - 19th Jan</string>
+    <string name="fourth">Assignment - 25th Jan</string>
+    <string name="fifth">01st Feb - 1</string>
+</resources>
