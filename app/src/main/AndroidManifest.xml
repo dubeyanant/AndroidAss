@@ -13,6 +13,27 @@
         android:theme="@style/Theme.AndroidAss"
         tools:targetApi="31">
         <activity
+            android:name=".jan25_3"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".jan25_2"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".jan25_1"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
             android:name=".feb1_2"
             android:exported="false">
             <meta-data

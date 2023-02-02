@@ -9,4 +9,9 @@
     <color name="white">#FFFFFFFF</color>
     <color name="notificationBarColor">#1e2761</color>
     <color name="actionBarColor">#408ec6</color>
+
+    <color name="redd">#EB455F</color>
+    <color name="cream">#FCFFE7</color>
+    <color name="sky">#BAD7E9</color>
+    <color name="navy">#2B3467</color>
 </resources>

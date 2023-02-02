@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/LinearLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".jan25_1">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="200dp"
+        android:gravity="center"
+        android:text="Name: Anant Dubey\nPRN: 1132220920"
+        android:textColor="@color/black"
+        android:textSize="20sp" />
+
+    <RadioGroup
+        android:id="@+id/yourRadioGroup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="-20dp">
+
+        <RadioButton
+            android:id="@+id/red"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Red"
+            android:textColor="@color/black" />
+
+        <RadioButton
+            android:id="@+id/cream"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Cream"
+            android:textColor="@color/black" />
+
+        <RadioButton
+            android:id="@+id/sky"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="SkyBlue"
+            android:textColor="@color/black" />
+
+        <RadioButton
+            android:id="@+id/navy"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="NavyBlue"
+            android:textColor="@color/black" />
+    </RadioGroup>
+
+</LinearLayout>

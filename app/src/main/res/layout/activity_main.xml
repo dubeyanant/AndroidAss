@@ -8,17 +8,17 @@
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:orientation="vertical"
+        android:layout_height="wrap_content"
         android:layout_marginHorizontal="10dp"
         android:gravity="center"
-        android:layout_height="wrap_content">
+        android:orientation="vertical">
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/title"
             android:layout_marginTop="10dp"
             android:layout_marginBottom="5dp"
+            android:text="@string/title"
             android:textSize="25sp"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
@@ -26,18 +26,39 @@
             app:layout_constraintTop_toTopOf="parent" />
 
         <Button
+            android:id="@+id/j251"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginVertical="5dp"
+            android:text="@string/j251" />
+
+        <Button
+            android:id="@+id/j252"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginVertical="5dp"
+            android:text="@string/j252" />
+
+        <Button
+            android:id="@+id/j253"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginVertical="5dp"
+            android:text="@string/j253" />
+
+        <Button
             android:id="@+id/f11"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@string/f11"
-            android:layout_marginVertical="5dp"/>
+            android:layout_marginVertical="5dp"
+            android:text="@string/f11" />
 
         <Button
             android:id="@+id/f12"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@string/f12"
-            android:layout_marginVertical="5dp"/>
+            android:layout_marginVertical="5dp"
+            android:text="@string/f12" />
 
     </LinearLayout>
 

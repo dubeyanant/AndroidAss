@@ -35,9 +35,7 @@ public class feb1_2 extends AppCompatActivity {
             public View makeView() {
                 ImageView myView = new ImageView(getApplicationContext());
                 myView.setScaleType(ImageView.ScaleType.CENTER_CROP);
-                myView.setLayoutParams(new
-                        ImageSwitcher.LayoutParams(ActionBar.LayoutParams.WRAP_CONTENT,
-                        ActionBar.LayoutParams.WRAP_CONTENT));
+                myView.setLayoutParams(new ImageSwitcher.LayoutParams(ActionBar.LayoutParams.WRAP_CONTENT, ActionBar.LayoutParams.WRAP_CONTENT));
                 return myView;
             }
         });
@@ -48,10 +46,8 @@ public class feb1_2 extends AppCompatActivity {
         b1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                if (i == 0)
-                    i = animalPics.length - 1;
-                else
-                    i--;
+                if (i == 0) i = animalPics.length - 1;
+                else i--;
                 imageSwitcher.setImageResource(animalPics[i]);
                 txt.setText(animalNames[i]);
             }
@@ -60,10 +56,8 @@ public class feb1_2 extends AppCompatActivity {
         b2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                if (i == animalPics.length - 1)
-                    i = 0;
-                else
-                    i++;
+                if (i == animalPics.length - 1) i = 0;
+                else i++;
                 imageSwitcher.setImageResource(animalPics[i]);
                 txt.setText(animalNames[i]);
             }
