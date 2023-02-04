@@ -3,8 +3,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/white"
-    android:gravity="center"
+    android:gravity="center_horizontal"
     android:orientation="vertical"
     tools:context=".jan25_2">
 
@@ -12,10 +11,10 @@
         android:id="@+id/textView2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="100dp"
+        android:layout_marginTop="52dp"
+        android:layout_marginBottom="150dp"
         android:gravity="center"
         android:text="Name: Anant Dubey\nPRN: 1132220920"
-        android:textColor="@color/black"
         android:textSize="20sp" />
 
     <EditText
@@ -23,8 +22,7 @@
         android:layout_height="wrap_content"
         android:layout_marginBottom="10dp"
         android:hint="Write here"
-        android:inputType="text"
-        android:textColorHint="@color/black" />
+        android:inputType="text" />
 
     <EditText
         android:layout_width="wrap_content"
@@ -32,8 +30,7 @@
         android:layout_marginBottom="10dp"
         android:hint="Write here"
         android:imeOptions="actionSearch"
-        android:inputType="text"
-        android:textColorHint="@color/black" />
+        android:inputType="text" />
 
     <EditText
         android:layout_width="wrap_content"
@@ -41,8 +38,7 @@
         android:layout_marginBottom="10dp"
         android:hint="Write here"
         android:imeOptions="actionSend"
-        android:inputType="text"
-        android:textColorHint="@color/black" />
+        android:inputType="text" />
 
     <EditText
         android:layout_width="wrap_content"
@@ -50,7 +46,6 @@
         android:layout_marginBottom="10dp"
         android:hint="Write here"
         android:imeOptions="actionDone"
-        android:inputType="text"
-        android:textColorHint="@color/black" />
+        android:inputType="text" />
 
 </LinearLayout>

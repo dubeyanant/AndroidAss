@@ -4,8 +4,7 @@
     android:id="@+id/ll2"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/white"
-    android:gravity="center"
+    android:gravity="center_horizontal"
     android:orientation="vertical"
     tools:context=".jan25_3">
 
@@ -13,10 +12,10 @@
         android:id="@+id/textView2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="100dp"
+        android:layout_marginTop="52dp"
+        android:layout_marginBottom="250dp"
         android:gravity="center"
         android:text="Name: Anant Dubey\nPRN: 1132220920"
-        android:textColor="@color/black"
         android:textSize="20sp" />
 
     <LinearLayout
@@ -30,8 +29,7 @@
             android:layout_height="wrap_content"
             android:layout_marginEnd="5dp"
             android:backgroundTint="@color/redd"
-            android:text="Red"
-            android:textColor="@color/black" />
+            android:text="Red" />
 
         <Button
             android:id="@+id/skyBtn"
