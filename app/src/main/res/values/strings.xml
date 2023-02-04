@@ -1,7 +1,8 @@
 <resources>
     <string name="app_name">Android Assignments</string>
-    <string name="j121">12th Jan</string>
-    <string name="j181">18th Jan</string>
+    <string name="j121">12th Jan - 1</string>
+    <string name="j181">18th Jan - 1</string>
+    <string name="j182">18th Jan - 2</string>
     <string name="j191">19th Jan - 1</string>
     <string name="j192">19th Jan - 2</string>
     <string name="j251">25th Jan - 1</string>
