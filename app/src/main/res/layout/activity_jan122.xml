@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFACD"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    tools:context=".jan12_2">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:gravity="center"
+        android:text="Name: Anant Dubey\nPRN: 1132220920"
+        android:textSize="20sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:text="Calculator Demo"
+        android:textSize="30sp" />
+
+    <EditText
+        android:id="@+id/num1"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:hint="First Number"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/num2"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:hint="Second Number"
+        android:inputType="number" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_marginTop="50dp"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal">
+
+        <Button
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="10dp"
+            android:onClick="sum"
+            android:text="+" />
+
+        <Button
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="10dp"
+            android:onClick="sub"
+            android:text="-" />
+
+        <Button
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="10dp"
+            android:onClick="mul"
+            android:text="x" />
+
+        <Button
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="10dp"
+            android:onClick="div"
+            android:text="/" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/result"
+        android:layout_marginTop="50dp"
+        android:textSize="15sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Result" />
+
+</LinearLayout>

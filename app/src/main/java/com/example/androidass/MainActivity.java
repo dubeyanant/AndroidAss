@@ -9,7 +9,7 @@ import android.widget.Button;
 
 public class MainActivity extends AppCompatActivity {
 
-    Button j121, j181, j182, j191, j192, j251, j252, j253, f11, f12;
+    Button j121,j122, j181, j182, j191, j192, j251, j252, j253, f11, f12;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -17,6 +17,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         j121 = (Button) findViewById(R.id.j121);
+        j122 = (Button) findViewById(R.id.j122);
         j181 = (Button) findViewById(R.id.j181);
         j182 = (Button) findViewById(R.id.j182);
         j191 = (Button) findViewById(R.id.j191);
@@ -26,6 +27,22 @@ public class MainActivity extends AppCompatActivity {
         j253 = (Button) findViewById(R.id.j253);
         f11 = (Button) findViewById(R.id.f11);
         f12 = (Button) findViewById(R.id.f12);
+
+        j121.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(v.getContext(), jan12_1.class);
+                startActivity(intent);
+            }
+        });
+
+        j122.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(v.getContext(), jan12_2.class);
+                startActivity(intent);
+            }
+        });
 
         j181.setOnClickListener(new View.OnClickListener() {
             @Override
