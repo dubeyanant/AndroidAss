@@ -9,7 +9,7 @@ import android.widget.Button;
 
 public class MainActivity extends AppCompatActivity {
 
-    Button j121,j122, j181, j182, j191, j192, j251, j252, j253, f11, f12;
+    Button j121, j122, j181, j182, j191, j192, j251, j252, j253, f11, f12, f81;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -27,6 +27,7 @@ public class MainActivity extends AppCompatActivity {
         j253 = (Button) findViewById(R.id.j253);
         f11 = (Button) findViewById(R.id.f11);
         f12 = (Button) findViewById(R.id.f12);
+        f81 = (Button) findViewById(R.id.f81);
 
         j121.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -112,6 +113,14 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(v.getContext(), feb1_2.class);
+                startActivity(intent);
+            }
+        });
+
+        f81.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(v.getContext(), feb8_1.class);
                 startActivity(intent);
             }
         });

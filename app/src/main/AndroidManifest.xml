@@ -13,6 +13,27 @@
         android:theme="@style/Theme.AndroidAss"
         tools:targetApi="31">
         <activity
+            android:name=".fibonacci"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".factorial"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".feb8_1"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
             android:name=".jan12_2"
             android:exported="false">
             <meta-data
