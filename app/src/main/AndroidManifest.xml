@@ -13,6 +13,20 @@
         android:theme="@style/Theme.AndroidAss"
         tools:targetApi="31">
         <activity
+            android:name=".feb16_1_secondary"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".feb16_1"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
             android:name=".fibonacci"
             android:exported="false">
             <meta-data
