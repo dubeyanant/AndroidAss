@@ -6,9 +6,13 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
+import android.widget.EditText;
+import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity {
 
+    EditText name, prn;
+    String Name, PRN;
     Button j121, j122, j181, j182, j191, j192, j251, j252, j253, f11, f12, f81, f161;
 
     @Override
@@ -33,7 +37,10 @@ public class MainActivity extends AppCompatActivity {
         j121.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                find();
                 Intent intent = new Intent(v.getContext(), jan12_1.class);
+                intent.putExtra("Name", Name);
+                intent.putExtra("PRN", PRN);
                 startActivity(intent);
             }
         });
@@ -133,5 +140,18 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(intent);
             }
         });
+    }
+
+    private void find() {
+        name = (EditText) findViewById(R.id.name);
+        prn = (EditText) findViewById(R.id.prn);
+
+        if(name.getText().toString().equals("") || prn.getText().toString().equals("")) {
+            Name = getString(R.string.Name);
+            PRN = getString(R.string.PRN);
+        } else {
+            Name = name.getText().toString();
+            PRN = prn.getText().toString();
+        }
     }
 }
