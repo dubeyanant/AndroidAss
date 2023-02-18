@@ -22,6 +22,7 @@ public class feb16_1 extends AppCompatActivity {
         setContentView(R.layout.activity_feb161);
 
         feb16Button = (Button) findViewById(R.id.feb16Button);
+        feb16TextView = (TextView) findViewById(R.id.feb16TextView);
 
         feb16Button.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -39,7 +40,7 @@ public class feb16_1 extends AppCompatActivity {
         if(requestCode == 1) {
             if(resultCode == RESULT_OK) {
                 int result = data.getIntExtra("result", 0);
-                feb16TextView.setText("" + result);
+                feb16TextView.setText("Addition is " + result);
             }
         }
     }
