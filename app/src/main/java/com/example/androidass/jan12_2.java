@@ -2,9 +2,9 @@ package com.example.androidass;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
-import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
 
@@ -18,6 +18,13 @@ public class jan12_2 extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_jan122);
+
+        Intent intent = getIntent();
+        String Name = intent.getStringExtra("Name");
+        String PRN = intent.getStringExtra("PRN");
+
+        TextView textViewId = (TextView) findViewById(R.id.textViewId);
+        textViewId.setText("Name: " + Name + "\nPRN: " + PRN);
 
         num1 = (EditText) findViewById(R.id.num1);
         num2 = (EditText) findViewById(R.id.num2);
@@ -45,7 +52,7 @@ public class jan12_2 extends AppCompatActivity {
     public void div(View view) {
         a = Integer.parseInt(num1.getText().toString());
         b = Integer.parseInt(num2.getText().toString());
-        float c = (float) a/ b;
+        float c = (float) a / b;
         result.setText("Division of " + a + " and " + b + " is equal to " + c);
     }
 }

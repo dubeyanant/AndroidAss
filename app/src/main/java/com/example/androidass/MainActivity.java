@@ -7,7 +7,6 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
-import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -48,7 +47,10 @@ public class MainActivity extends AppCompatActivity {
         j122.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                find();
                 Intent intent = new Intent(v.getContext(), jan12_2.class);
+                intent.putExtra("Name", Name);
+                intent.putExtra("PRN", PRN);
                 startActivity(intent);
             }
         });
@@ -56,7 +58,10 @@ public class MainActivity extends AppCompatActivity {
         j181.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                find();
                 Intent intent = new Intent(v.getContext(), jan18_1.class);
+                intent.putExtra("Name", Name);
+                intent.putExtra("PRN", PRN);
                 startActivity(intent);
             }
         });
@@ -64,7 +69,10 @@ public class MainActivity extends AppCompatActivity {
         j182.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                find();
                 Intent intent = new Intent(v.getContext(), jan18_2.class);
+                intent.putExtra("Name", Name);
+                intent.putExtra("PRN", PRN);
                 startActivity(intent);
             }
         });
@@ -72,7 +80,10 @@ public class MainActivity extends AppCompatActivity {
         j191.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                find();
                 Intent intent = new Intent(v.getContext(), jan19_1.class);
+                intent.putExtra("Name", Name);
+                intent.putExtra("PRN", PRN);
                 startActivity(intent);
             }
         });
@@ -80,7 +91,10 @@ public class MainActivity extends AppCompatActivity {
         j192.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                find();
                 Intent intent = new Intent(v.getContext(), jan19_2.class);
+                intent.putExtra("Name", Name);
+                intent.putExtra("PRN", PRN);
                 startActivity(intent);
             }
         });
@@ -88,7 +102,10 @@ public class MainActivity extends AppCompatActivity {
         j251.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                find();
                 Intent intent = new Intent(v.getContext(), jan25_1.class);
+                intent.putExtra("Name", Name);
+                intent.putExtra("PRN", PRN);
                 startActivity(intent);
             }
         });
@@ -96,7 +113,10 @@ public class MainActivity extends AppCompatActivity {
         j252.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                find();
                 Intent intent = new Intent(v.getContext(), jan25_2.class);
+                intent.putExtra("Name", Name);
+                intent.putExtra("PRN", PRN);
                 startActivity(intent);
             }
         });
@@ -104,7 +124,10 @@ public class MainActivity extends AppCompatActivity {
         j253.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                find();
                 Intent intent = new Intent(v.getContext(), jan25_3.class);
+                intent.putExtra("Name", Name);
+                intent.putExtra("PRN", PRN);
                 startActivity(intent);
             }
         });
@@ -112,7 +135,10 @@ public class MainActivity extends AppCompatActivity {
         f11.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                find();
                 Intent intent = new Intent(v.getContext(), feb1_1.class);
+                intent.putExtra("Name", Name);
+                intent.putExtra("PRN", PRN);
                 startActivity(intent);
             }
         });
@@ -120,7 +146,10 @@ public class MainActivity extends AppCompatActivity {
         f12.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                find();
                 Intent intent = new Intent(v.getContext(), feb1_2.class);
+                intent.putExtra("Name", Name);
+                intent.putExtra("PRN", PRN);
                 startActivity(intent);
             }
         });
@@ -128,7 +157,10 @@ public class MainActivity extends AppCompatActivity {
         f81.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                find();
                 Intent intent = new Intent(v.getContext(), feb8_1.class);
+                intent.putExtra("Name", Name);
+                intent.putExtra("PRN", PRN);
                 startActivity(intent);
             }
         });
@@ -136,7 +168,10 @@ public class MainActivity extends AppCompatActivity {
         f161.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                find();
                 Intent intent = new Intent(v.getContext(), feb16_1.class);
+                intent.putExtra("Name", Name);
+                intent.putExtra("PRN", PRN);
                 startActivity(intent);
             }
         });

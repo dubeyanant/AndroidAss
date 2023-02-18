@@ -13,10 +13,10 @@
         android:layout_marginEnd="7dp">
 
         <TextView
-            android:id="@+id/textView2"
+            android:id="@+id/textViewId"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginTop="52dp"
+            android:layout_marginTop="100dp"
             android:gravity="center"
             android:text="Name: Anant Dubey\nPRN: 1132220920"
             android:textSize="20sp" />
@@ -25,7 +25,7 @@
             android:id="@+id/textView"
             android:layout_width="match_parent"
             android:layout_height="100dp"
-            android:layout_marginTop="250dp"
+            android:layout_marginTop="100dp"
             android:gravity="bottom|end"
             android:text="0"
             android:textSize="60sp" />
