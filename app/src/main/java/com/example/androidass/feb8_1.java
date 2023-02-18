@@ -9,6 +9,7 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.TextView;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -21,6 +22,13 @@ public class feb8_1 extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_feb81);
+
+        Intent intent = getIntent();
+        String Name = intent.getStringExtra("Name");
+        String PRN = intent.getStringExtra("PRN");
+
+        TextView textViewId = (TextView) findViewById(R.id.textViewId);
+        textViewId.setText("Name: " + Name + "\nPRN: " + PRN);
 
         feb8 = (Button) findViewById(R.id.feb8);
 
@@ -45,6 +53,8 @@ public class feb8_1 extends AppCompatActivity {
 
                         Intent intent = new Intent(v.getContext(), factorial.class);
                         intent.putExtra("result", "Factorial of " + n + " is " + factorial(n));
+                        intent.putExtra("Name", Name);
+                        intent.putExtra("PRN", PRN);
                         startActivity(intent);
                     }
                 });
@@ -58,6 +68,8 @@ public class feb8_1 extends AppCompatActivity {
 
                         Intent intent = new Intent(v.getContext(), fibonacci.class);
                         intent.putExtra("result", "Fibonacci series till " + n + " is:\n" + fibonacci(n));
+                        intent.putExtra("Name", Name);
+                        intent.putExtra("PRN", PRN);
                         startActivity(intent);
                     }
                 });

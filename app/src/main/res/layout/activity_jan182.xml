@@ -6,6 +6,7 @@
     tools:context=".jan18_2">
 
     <TextView
+        android:id="@+id/textViewId"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="165dp"

@@ -15,10 +15,10 @@
         android:stretchColumns="*">
 
         <TextView
-            android:id="@+id/textView2"
+            android:id="@+id/textViewId"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginTop="52dp"
+            android:layout_marginTop="100dp"
             android:gravity="center"
             android:text="Name: Anant Dubey\nPRN: 1132220920"
             android:textSize="20sp" />
@@ -26,7 +26,7 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginTop="200dp"
+            android:layout_marginTop="150dp"
             android:layout_marginBottom="25dp"
             android:gravity="center"
             android:text="Student Details"

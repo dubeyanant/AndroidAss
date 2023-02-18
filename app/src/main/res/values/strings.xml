@@ -1,5 +1,9 @@
 <resources>
     <string name="app_name">Android Assignments</string>
+
+    <string name="Name">Anant Dubey</string>
+    <string name="PRN">1132220920</string>
+
     <string name="j121">12th Jan - 1</string>
     <string name="j122">12th Jan - 2</string>
     <string name="j181">18th Jan - 1</string>

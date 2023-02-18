@@ -20,6 +20,13 @@ public class feb16_1_secondary extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_feb161_secondary);
 
+        Intent intent = getIntent();
+        String Name = intent.getStringExtra("Name");
+        String PRN = intent.getStringExtra("PRN");
+
+        TextView textViewId = (TextView) findViewById(R.id.textViewId);
+        textViewId.setText("Name: " + Name + "\nPRN: " + PRN);
+
         first = (EditText) findViewById(R.id.first);
         second = (EditText) findViewById(R.id.second);
         add = (Button) findViewById(R.id.feb16Button);

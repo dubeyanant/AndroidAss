@@ -9,11 +9,10 @@
     tools:context=".jan25_3">
 
     <TextView
-        android:id="@+id/textView2"
-        android:layout_width="wrap_content"
+        android:id="@+id/textViewId"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="52dp"
-        android:layout_marginBottom="250dp"
+        android:layout_marginTop="100dp"
         android:gravity="center"
         android:text="Name: Anant Dubey\nPRN: 1132220920"
         android:textSize="20sp" />
@@ -21,6 +20,7 @@
     <LinearLayout
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginTop="250dp"
         android:orientation="horizontal">
 
         <Button

@@ -18,6 +18,12 @@ public class factorial extends AppCompatActivity {
         factorial = (TextView) findViewById(R.id.factorial);
 
         Intent intent = getIntent();
+        String Name = intent.getStringExtra("Name");
+        String PRN = intent.getStringExtra("PRN");
+
+        TextView textViewId = (TextView) findViewById(R.id.textViewId);
+        textViewId.setText("Name: " + Name + "\nPRN: " + PRN);
+
         String result = intent.getStringExtra("result");
 
         factorial.setText(result);

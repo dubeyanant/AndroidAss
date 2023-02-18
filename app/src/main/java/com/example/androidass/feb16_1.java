@@ -21,6 +21,13 @@ public class feb16_1 extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_feb161);
 
+        Intent intent = getIntent();
+        String Name = intent.getStringExtra("Name");
+        String PRN = intent.getStringExtra("PRN");
+
+        TextView textViewId = (TextView) findViewById(R.id.textViewId);
+        textViewId.setText("Name: " + Name + "\nPRN: " + PRN);
+
         feb16Button = (Button) findViewById(R.id.feb16Button);
         feb16TextView = (TextView) findViewById(R.id.feb16TextView);
 
@@ -28,6 +35,8 @@ public class feb16_1 extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(feb16_1.this, feb16_1_secondary.class);
+                intent.putExtra("Name", Name);
+                intent.putExtra("PRN", PRN);
                 startActivityForResult(intent, 1);
             }
         });

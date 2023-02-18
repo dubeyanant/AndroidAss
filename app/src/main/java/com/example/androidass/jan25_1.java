@@ -2,10 +2,12 @@ package com.example.androidass;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.LinearLayout;
 import android.widget.RadioButton;
+import android.widget.TextView;
 
 public class jan25_1 extends AppCompatActivity {
 
@@ -13,6 +15,13 @@ public class jan25_1 extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_jan251);
+
+        Intent intent = getIntent();
+        String Name = intent.getStringExtra("Name");
+        String PRN = intent.getStringExtra("PRN");
+
+        TextView textViewId = (TextView) findViewById(R.id.textViewId);
+        textViewId.setText("Name: " + Name + "\nPRN: " + PRN);
 
         final LinearLayout ll = (LinearLayout) findViewById(R.id.LinearLayout);
 
