@@ -31,10 +31,11 @@ public class MainActivity extends AppCompatActivity {
                 findViewById(R.id.f11),
                 findViewById(R.id.f12),
                 findViewById(R.id.f81),
+                findViewById(R.id.f91),
                 findViewById(R.id.f161)
         };
 
-        Intent[] intents = new Intent[] {
+        Intent[] intents = new Intent[]{
                 new Intent(this, jan12_1.class),
                 new Intent(this, jan12_2.class),
                 new Intent(this, jan18_1.class),
@@ -47,6 +48,7 @@ public class MainActivity extends AppCompatActivity {
                 new Intent(this, feb1_1.class),
                 new Intent(this, feb1_2.class),
                 new Intent(this, feb8_1.class),
+                new Intent(this, feb9_1.class),
                 new Intent(this, feb16_1.class)
         };
 
