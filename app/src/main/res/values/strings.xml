@@ -6,18 +6,16 @@
     <string name="Name">Anant Dubey</string>
     <string name="PRN">1132220920</string>
 
-    <string name="j121">12th Jan - 1</string>
-    <string name="j122">12th Jan - 2</string>
-    <string name="j181">18th Jan - 1</string>
-    <string name="j182">18th Jan - 2</string>
-    <string name="j191">19th Jan - 1</string>
-    <string name="j192">19th Jan - 2</string>
-    <string name="j251">25th Jan - 1</string>
-    <string name="j252">25th Jan - 2</string>
-    <string name="j253">25th Jan - 3</string>
-    <string name="f11">01st Feb - 1</string>
-    <string name="f12">01st Feb - 2</string>
-    <string name="f81">08th Feb - 1</string>
-    <string name="f91">09th Feb - 1</string>
-    <string name="f161">16th Feb - 1</string>
+    <string name="a1">Assignment 1</string>
+    <string name="a2">Assignment 2</string>
+    <string name="a3">Assignment 3</string>
+
+    <string name="j12">12th Jan</string>
+    <string name="j18">18th Jan</string>
+    <string name="j19">19th Jan</string>
+    <string name="j25">25th Jan</string>
+    <string name="f1">01st Feb</string>
+    <string name="f8">08th Feb</string>
+    <string name="f9">09th Feb</string>
+    <string name="f16">16th Feb</string>
 </resources>

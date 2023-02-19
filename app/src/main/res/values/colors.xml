@@ -7,6 +7,7 @@
     <color name="teal_700">#FF018786</color>
     <color name="black">#000000</color>
     <color name="white">#FFFFFFFF</color>
+    <color name="soft_gray">#ECECEC</color>
     <color name="notificationBarColor">#1e2761</color>
     <color name="actionBarColor">#408ec6</color>
 
