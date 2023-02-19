@@ -1,6 +1,8 @@
 <resources>
     <string name="app_name">Android Assignments</string>
 
+    <string name="greeting">Hey There 👋</string>
+
     <string name="Name">Anant Dubey</string>
     <string name="PRN">1132220920</string>
 

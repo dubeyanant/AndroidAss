@@ -5,10 +5,12 @@
     <color name="purple_700">#FF3700B3</color>
     <color name="teal_200">#FF03DAC5</color>
     <color name="teal_700">#FF018786</color>
-    <color name="black">#FF000000</color>
+    <color name="black">#000000</color>
     <color name="white">#FFFFFFFF</color>
     <color name="notificationBarColor">#1e2761</color>
     <color name="actionBarColor">#408ec6</color>
+
+    <color name="text_color_tertiary">#000000</color>
 
     <color name="redd">#EB455F</color>
     <color name="cream">#FCFFE7</color>
