@@ -11,6 +11,48 @@ import java.util.ArrayList;
 
 public class mar1_1 extends AppCompatActivity {
 
+    int[] countryImage = {
+            R.drawable.india,
+            R.drawable.sweden,
+            R.drawable.canada,
+            R.drawable.germany,
+            R.drawable.ireland,
+            R.drawable.japan,
+            R.drawable.nepal,
+            R.drawable.newzealand,
+            R.drawable.poland,
+            R.drawable.singapore,
+            R.drawable.southkorea
+    };
+
+    String[] countryName = {
+            "India",
+            "Sweden",
+            "Canada",
+            "Germany",
+            "Ireland",
+            "Japan",
+            "Nepal",
+            "New Zealand",
+            "Poland",
+            "Singapore",
+            "South Korea"
+    };
+
+    String[] capitalName = {
+            "New Delhi",
+            "Stockholm",
+            "Ottawa",
+            "Berlin",
+            "Dublin",
+            "Tokyo",
+            "Kathmandu",
+            "Wellington",
+            "Warsaw",
+            "Singapore City",
+            "Seoul"
+    };
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -25,17 +67,9 @@ public class mar1_1 extends AppCompatActivity {
 
         final ArrayList<Country> arrayList = new ArrayList<Country>();
 
-        arrayList.add(new Country(R.drawable.india, "India", "New Delhi"));
-        arrayList.add(new Country(R.drawable.canada, "Canada", "Ottawa"));
-        arrayList.add(new Country(R.drawable.germany, "Germany", "Berlin"));
-        arrayList.add(new Country(R.drawable.ireland, "Ireland", "Dublin"));
-        arrayList.add(new Country(R.drawable.japan, "Japan", "Tokyo"));
-        arrayList.add(new Country(R.drawable.nepal, "Nepal", "Kathmandu"));
-        arrayList.add(new Country(R.drawable.newzeland, "New Zealand", "Wellington"));
-        arrayList.add(new Country(R.drawable.poland, "Poland", "Warsaw"));
-        arrayList.add(new Country(R.drawable.singapore, "Singapore", "Singapore City"));
-        arrayList.add(new Country(R.drawable.southkorea, "South Korea", "Seoul"));
-        arrayList.add(new Country(R.drawable.swedan, "Sweden", "Stockholm"));
+        for (int i = 0; i < countryImage.length; i++) {
+            arrayList.add(new Country(countryImage[i], countryName[i], capitalName[i]));
+        }
 
         CountryViewAdapter countryArrayAdapter = new CountryViewAdapter(this, arrayList);
 
