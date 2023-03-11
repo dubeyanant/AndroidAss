@@ -35,7 +35,8 @@ public class MainActivity extends AppCompatActivity {
                 findViewById(R.id.f161),
                 findViewById(R.id.f221),
                 findViewById(R.id.m11),
-                findViewById(R.id.m12)
+                findViewById(R.id.m12),
+                findViewById(R.id.m81)
         };
 
         Intent[] intents = new Intent[]{
@@ -55,7 +56,8 @@ public class MainActivity extends AppCompatActivity {
                 new Intent(this, feb16_1.class),
                 new Intent(this, feb22_1.class),
                 new Intent(this, mar1_1.class),
-                new Intent(this, mar1_2.class)
+                new Intent(this, mar1_2.class),
+                new Intent(this, mar8_1.class)
         };
 
         for (int i = 0; i < buttons.length; i++) {
