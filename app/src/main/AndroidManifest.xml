@@ -15,6 +15,9 @@
         android:theme="@style/Theme.AndroidAss"
         tools:targetApi="31">
         <activity
+            android:name=".mar23_1"
+            android:exported="false" />
+        <activity
             android:name=".mar8_1"
             android:exported="false" />
         <activity
@@ -159,4 +162,5 @@
                 android:value="" />
         </activity>
     </application>
+
 </manifest>
