@@ -5,7 +5,7 @@
     android:layout_height="match_parent"
     android:gravity="center_horizontal"
     android:orientation="vertical"
-    tools:context=".factorial">
+    tools:context=".feb8.factorial">
 
     <TextView
         android:id="@+id/textViewId"

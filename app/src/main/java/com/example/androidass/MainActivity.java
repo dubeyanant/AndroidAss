@@ -2,11 +2,31 @@ package com.example.androidass;
 
 import android.content.Intent;
 import android.os.Bundle;
-import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 
 import androidx.appcompat.app.AppCompatActivity;
+
+import com.example.androidass.feb1.feb1_1;
+import com.example.androidass.feb1.feb1_2;
+import com.example.androidass.feb16.feb16_1;
+import com.example.androidass.feb22.feb22_1;
+import com.example.androidass.feb8.feb8_1;
+import com.example.androidass.feb9.feb9_1;
+import com.example.androidass.jan12.jan12_1;
+import com.example.androidass.jan12.jan12_2;
+import com.example.androidass.jan18.jan18_1;
+import com.example.androidass.jan18.jan18_2;
+import com.example.androidass.jan19.jan19_1;
+import com.example.androidass.jan19.jan19_2;
+import com.example.androidass.jan25.jan25_1;
+import com.example.androidass.jan25.jan25_2;
+import com.example.androidass.jan25.jan25_3;
+import com.example.androidass.mar1.mar1_1;
+import com.example.androidass.mar1.mar1_2;
+import com.example.androidass.mar23.mar23_1;
+import com.example.androidass.mar29.mar29_1;
+import com.example.androidass.mar8.mar8_1;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -66,24 +86,21 @@ public class MainActivity extends AppCompatActivity {
 
         for (int i = 0; i < buttons.length; i++) {
             final int index = i;
-            buttons[i].setOnClickListener(new View.OnClickListener() {
-                @Override
-                public void onClick(View v) {
-                    name = (EditText) findViewById(R.id.name);
-                    prn = (EditText) findViewById(R.id.prn);
+            buttons[i].setOnClickListener(v -> {
+                name = (EditText) findViewById(R.id.name);
+                prn = (EditText) findViewById(R.id.prn);
 
-                    if (name.getText().toString().equals("") || prn.getText().toString().equals("")) {
-                        Name = getString(R.string.Name);
-                        PRN = getString(R.string.PRN);
-                    } else {
-                        Name = name.getText().toString();
-                        PRN = prn.getText().toString();
-                    }
-
-                    intents[index].putExtra("Name", Name);
-                    intents[index].putExtra("PRN", PRN);
-                    startActivity(intents[index]);
+                if (name.getText().toString().equals("") || prn.getText().toString().equals("")) {
+                    Name = getString(R.string.Name);
+                    PRN = getString(R.string.PRN);
+                } else {
+                    Name = name.getText().toString();
+                    PRN = prn.getText().toString();
                 }
+
+                intents[index].putExtra("Name", Name);
+                intents[index].putExtra("PRN", PRN);
+                startActivity(intents[index]);
             });
         }
     }

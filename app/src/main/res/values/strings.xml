@@ -24,4 +24,24 @@
     <string name="m23">23rd Mar</string>
     <string name="m29">29th Mar</string>
 
+    <!--Assignment jan12_1-->
+    <string name="name">Name:</string>
+    <string name="prn">\nPRN:</string>
+    <string name="welcome">Welcome</string>
+    <string name="mit">to MITWPU, Pune.</string>
+
+    <!--Assignment jan12_2-->
+    <string name="addition">Addition of</string>
+    <string name="subtraction">Subtraction of</string>
+    <string name="multiplication">Multiplication of</string>
+    <string name="division">Division of</string>
+    <string name="and">and</string>
+    <string name="equals">is equal to</string>
+
+    <!--Assignment feb9_1-->
+    <string name="result_is">Result is</string>
+
+    <!--Assignment feb16_1-->
+    <string name="addition_is">Addition is</string>
+
 </resources>

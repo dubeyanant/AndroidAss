@@ -5,7 +5,7 @@
     android:layout_height="match_parent"
     android:gravity="center_horizontal"
     android:orientation="vertical"
-    tools:context=".jan25_2">
+    tools:context=".jan25.jan25_2">
 
     <TextView
         android:id="@+id/textViewId"

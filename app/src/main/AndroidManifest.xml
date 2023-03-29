@@ -15,137 +15,137 @@
         android:theme="@style/Theme.AndroidAss"
         tools:targetApi="31">
         <activity
-            android:name=".mar29_1"
+            android:name=".mar29.mar29_1"
             android:exported="false" />
         <activity
-            android:name=".mar23_1"
+            android:name=".mar23.mar23_1"
             android:exported="false" />
         <activity
-            android:name=".mar8_1"
+            android:name=".mar8.mar8_1"
             android:exported="false" />
         <activity
-            android:name=".mar1_2"
+            android:name=".mar1.mar1_2"
             android:exported="false" />
         <activity
-            android:name=".mar1_1"
+            android:name=".mar1.mar1_1"
             android:exported="false" />
         <activity
-            android:name=".feb22_1"
+            android:name=".feb22.feb22_1"
             android:exported="false" />
         <activity
-            android:name=".feb9_1"
+            android:name=".feb9.feb9_1"
             android:exported="false">
             <meta-data
                 android:name="android.app.lib_name"
                 android:value="" />
         </activity>
         <activity
-            android:name=".feb16_1_secondary"
+            android:name=".feb16.feb16_1_secondary"
             android:exported="false">
             <meta-data
                 android:name="android.app.lib_name"
                 android:value="" />
         </activity>
         <activity
-            android:name=".feb16_1"
+            android:name=".feb16.feb16_1"
             android:exported="false">
             <meta-data
                 android:name="android.app.lib_name"
                 android:value="" />
         </activity>
         <activity
-            android:name=".fibonacci"
+            android:name=".feb8.fibonacci"
             android:exported="false">
             <meta-data
                 android:name="android.app.lib_name"
                 android:value="" />
         </activity>
         <activity
-            android:name=".factorial"
+            android:name=".feb8.factorial"
             android:exported="false">
             <meta-data
                 android:name="android.app.lib_name"
                 android:value="" />
         </activity>
         <activity
-            android:name=".feb8_1"
+            android:name=".feb8.feb8_1"
             android:exported="false">
             <meta-data
                 android:name="android.app.lib_name"
                 android:value="" />
         </activity>
         <activity
-            android:name=".jan12_2"
+            android:name=".jan12.jan12_2"
             android:exported="false">
             <meta-data
                 android:name="android.app.lib_name"
                 android:value="" />
         </activity>
         <activity
-            android:name=".jan12_1"
+            android:name=".jan12.jan12_1"
             android:exported="false">
             <meta-data
                 android:name="android.app.lib_name"
                 android:value="" />
         </activity>
         <activity
-            android:name=".jan18_2"
+            android:name=".jan18.jan18_2"
             android:exported="false">
             <meta-data
                 android:name="android.app.lib_name"
                 android:value="" />
         </activity>
         <activity
-            android:name=".jan18_1"
+            android:name=".jan18.jan18_1"
             android:exported="false">
             <meta-data
                 android:name="android.app.lib_name"
                 android:value="" />
         </activity>
         <activity
-            android:name=".jan19_2"
+            android:name=".jan19.jan19_2"
             android:exported="false">
             <meta-data
                 android:name="android.app.lib_name"
                 android:value="" />
         </activity>
         <activity
-            android:name=".jan19_1"
+            android:name=".jan19.jan19_1"
             android:exported="false">
             <meta-data
                 android:name="android.app.lib_name"
                 android:value="" />
         </activity>
         <activity
-            android:name=".jan25_3"
+            android:name=".jan25.jan25_3"
             android:exported="false">
             <meta-data
                 android:name="android.app.lib_name"
                 android:value="" />
         </activity>
         <activity
-            android:name=".jan25_2"
+            android:name=".jan25.jan25_2"
             android:exported="false">
             <meta-data
                 android:name="android.app.lib_name"
                 android:value="" />
         </activity>
         <activity
-            android:name=".jan25_1"
+            android:name=".jan25.jan25_1"
             android:exported="false">
             <meta-data
                 android:name="android.app.lib_name"
                 android:value="" />
         </activity>
         <activity
-            android:name=".feb1_2"
+            android:name=".feb1.feb1_2"
             android:exported="false">
             <meta-data
                 android:name="android.app.lib_name"
                 android:value="" />
         </activity>
         <activity
-            android:name=".feb1_1"
+            android:name=".feb1.feb1_1"
             android:exported="false">
             <meta-data
                 android:name="android.app.lib_name"
