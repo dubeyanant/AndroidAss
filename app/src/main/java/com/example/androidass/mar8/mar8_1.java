@@ -23,12 +23,12 @@ public class mar8_1 extends AppCompatActivity {
     private static final int REQ_CODE = 200;
 
     int[] contactImage = {
-            R.drawable.shrutika,
-            R.drawable.harshada,
-            R.drawable.rohan,
-            R.drawable.sumit,
-            R.drawable.geet,
-            R.drawable.anant
+            R.drawable.pic_pf_shrutika,
+            R.drawable.pic_pf_harshada,
+            R.drawable.pic_pf_rohan,
+            R.drawable.pic_pf_sumit,
+            R.drawable.pic_pf_geet,
+            R.drawable.pic_pf_anant
 
     };
 

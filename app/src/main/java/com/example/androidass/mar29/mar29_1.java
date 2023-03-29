@@ -20,14 +20,14 @@ import java.util.ArrayList;
 public class mar29_1 extends AppCompatActivity {
 
     int[] countryImage = {
-            R.drawable.india,
-            R.drawable.germany,
-            R.drawable.ireland,
-            R.drawable.nepal,
-            R.drawable.japan,
-            R.drawable.newzealand,
-            R.drawable.poland,
-            R.drawable.southkorea
+            R.drawable.vct_country_india,
+            R.drawable.vct_country_germany,
+            R.drawable.vct_country_ireland,
+            R.drawable.vct_country_nepal,
+            R.drawable.vct_country_japan,
+            R.drawable.vct_country_newzealand,
+            R.drawable.vct_country_poland,
+            R.drawable.vct_country_southkorea
     };
 
     String[] capitalName = {

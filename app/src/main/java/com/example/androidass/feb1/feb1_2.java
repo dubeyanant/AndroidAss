@@ -18,13 +18,13 @@ public class feb1_2 extends AppCompatActivity {
     TextView txt;
     Button b1, b2;
     int[] animalPics = {
-            R.drawable.cats,
-            R.drawable.doggo,
-            R.drawable.lamba,
-            R.drawable.monki,
-            R.drawable.panda,
-            R.drawable.rabbit,
-            R.drawable.sheep
+            R.drawable.pic_animal_cat,
+            R.drawable.pic_animal_dog,
+            R.drawable.pic_animal_llama,
+            R.drawable.pic_animal_monkey,
+            R.drawable.pic_animal_panda,
+            R.drawable.pic_animal_rabbit,
+            R.drawable.pic_animal_sheep
     };
 
     String[] animalNames = {
