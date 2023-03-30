@@ -14,7 +14,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="50dp"
         android:gravity="center"
-        android:text="Name: Anant Dubey\nPRN: 1132220920"
+        android:text=""
         android:textSize="20sp" />
 
     <AutoCompleteTextView
@@ -22,7 +22,7 @@
         android:layout_width="402dp"
         android:layout_height="70dp"
         android:layout_marginTop="50dp"
-        android:hint="Enter name"
+        android:hint="@string/enter_name"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"

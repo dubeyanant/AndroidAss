@@ -13,7 +13,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="100dp"
         android:gravity="center"
-        android:text="Name: Anant Dubey\nPRN: 1132220920"
+        android:text=""
         android:textSize="20sp" />
 
     <EditText
@@ -21,31 +21,40 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="150dp"
         android:layout_marginBottom="10dp"
-        android:hint="Write here"
-        android:inputType="text" />
+        android:hint="@string/write_here"
+        android:importantForAutofill="no"
+        android:inputType="text"
+        android:minHeight="48dp"
+        tools:ignore="DuplicateSpeakableTextCheck" />
 
     <EditText
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginBottom="10dp"
-        android:hint="Write here"
+        android:hint="@string/write_here"
         android:imeOptions="actionSearch"
-        android:inputType="text" />
+        android:importantForAutofill="no"
+        android:inputType="text"
+        android:minHeight="48dp" />
 
     <EditText
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginBottom="10dp"
-        android:hint="Write here"
+        android:hint="@string/write_here"
         android:imeOptions="actionSend"
-        android:inputType="text" />
+        android:importantForAutofill="no"
+        android:inputType="text"
+        android:minHeight="48dp" />
 
     <EditText
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginBottom="10dp"
-        android:hint="Write here"
+        android:hint="@string/write_here"
         android:imeOptions="actionDone"
-        android:inputType="text" />
+        android:importantForAutofill="no"
+        android:inputType="text"
+        android:minHeight="48dp" />
 
 </LinearLayout>

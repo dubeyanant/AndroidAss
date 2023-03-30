@@ -38,10 +38,102 @@
     <string name="and">and</string>
     <string name="equals">is equal to</string>
 
+    <!--Assignment feb1_1-->
+    <string name="odd_numbers_appear_here">Odd numbers appear here!</string>
+    <string name="click_me">Click me</string>
+
+    <!--Assignment feb1_2-->
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <!--Assignment feb8_1-->
+    <string name="result">Result</string>
+
     <!--Assignment feb9_1-->
     <string name="result_is">Result is</string>
 
     <!--Assignment feb16_1-->
     <string name="addition_is">Addition is</string>
+    <string name="enter_1st_number">Enter 1st number</string>
+    <string name="enter_2nd_number">Enter 2nd number</string>
+    <string name="add">Add</string>
 
+    <!--Assignment feb9_1-->
+    <string name="number_1">Number 1</string>
+    <string name="number_2">Number 2</string>
+    <string name="subtract">Subtract</string>
+    <string name="multiply">Multiply</string>
+    <string name="divide">Divide</string>
+
+    <!--Assignment jan12_1-->
+    <string name="enter_your_name">Enter Your Name</string>
+
+    <!--Assignment jan12_2-->
+    <string name="calculator_demo">Calculator Demo</string>
+    <string name="first_number">First Number</string>
+    <string name="second_number">Second Number</string>
+    <string name="plus">+</string>
+    <string name="minus">-</string>
+    <string name="multiply_symbol">x</string>
+    <string name="divide_symbol">/</string>
+
+    <!--Assignment jan18_1-->
+    <string name="button">Button</string>
+
+    <!--Assignment jan19_1-->
+    <string name="student_details">Student Details</string>
+    <string name="roll_no">Roll No.</string>
+    <string name="student_name">Student Name</string>
+    <string name="city">City</string>
+    <string name="mno">MNo.</string>
+    <string name="_1">1</string>
+    <string name="_2">2</string>
+    <string name="_3">3</string>
+    <string name="_4">4</string>
+    <string name="saitama">Saitama</string>
+    <string name="satoru_gojo">Satoru Gojo</string>
+    <string name="eren_yeager">Eren Yeager</string>
+    <string name="rintarou_okabe">Rintarou Okabe</string>
+    <string name="z_city">Z-city</string>
+    <string name="tokyo">Tokyo</string>
+    <string name="shiganshina">Shiganshina</string>
+    <string name="ikebukuro">Ikebukuro</string>
+    <string name="phone_no_1">12345679</string>
+    <string name="phone_no_2">94347589</string>
+    <string name="phone_no_3">87456152</string>
+    <string name="phone_no_4">95478614</string>
+
+    <!--Assignment jan19_2-->
+    <string name="_0">0</string>
+    <string name="_5">5</string>
+    <string name="_6">6</string>
+    <string name="_7">7</string>
+    <string name="_8">8</string>
+    <string name="_9">9</string>
+    <string name="equal">=</string>
+    <string name="dot_symbol">.</string>
+    <string name="delete">DELETE</string>
+    <string name="c">C</string>
+    <string name="ce">CE</string>
+
+    <!--Assignment jan25_1-->
+    <string name="red">Red</string>
+    <string name="cream">Cream</string>
+    <string name="skyblue">Sky Blue</string>
+    <string name="navyblue">Navy Blue</string>
+
+    <!--Assignment jan25_2-->
+    <string name="write_here">Write here</string>
+
+    <!--Assignment jan25_3-->
+    <string name="sky">Sky</string>
+
+    <!--Assignment mar1_2-->
+    <string name="enter_name">Enter name</string>
+
+    <!--Custom Contacts List View-->
+    <string name="contact_profile_photo">Contact Profile Photo</string>
+
+    <!--Custom List View-->
+    <string name="a_photo">A Photo</string>
 </resources>

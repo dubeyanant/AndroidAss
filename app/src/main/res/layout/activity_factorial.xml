@@ -13,7 +13,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="100dp"
         android:gravity="center"
-        android:text="Name: Anant Dubey\nPRN: 1132220920"
+        android:text=""
         android:textSize="20sp" />
 
     <TextView
@@ -22,7 +22,7 @@
         android:layout_height="wrap_content"
         android:layout_margin="70dp"
         android:gravity="center"
-        android:text="Result"
+        android:text="@string/result"
         android:textSize="20sp" />
 
 </LinearLayout>

@@ -26,7 +26,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="40dp"
-            android:text="Name"
+            android:text="@string/name"
             android:textSize="18sp" />
 
         <EditText
@@ -46,7 +46,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="15dp"
-            android:text="PRN"
+            android:text="@string/prn"
             android:textSize="18sp" />
 
         <EditText
@@ -150,28 +150,23 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content">
 
-            <RelativeLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content">
+            <Button
+                android:id="@+id/m11"
+                android:layout_width="170dp"
+                android:layout_height="170dp"
+                android:layout_alignParentStart="true"
+                android:gravity="bottom"
+                android:paddingBottom="15dp"
+                android:text="@string/a1" />
 
-                <Button
-                    android:id="@+id/m11"
-                    android:layout_width="170dp"
-                    android:layout_height="170dp"
-                    android:layout_alignParentStart="true"
-                    android:gravity="bottom"
-                    android:paddingBottom="15dp"
-                    android:text="@string/a1" />
-
-                <Button
-                    android:id="@+id/m12"
-                    android:layout_width="170dp"
-                    android:layout_height="170dp"
-                    android:layout_alignParentEnd="true"
-                    android:gravity="bottom"
-                    android:paddingBottom="15dp"
-                    android:text="@string/a2" />
-            </RelativeLayout>
+            <Button
+                android:id="@+id/m12"
+                android:layout_width="170dp"
+                android:layout_height="170dp"
+                android:layout_alignParentEnd="true"
+                android:gravity="bottom"
+                android:paddingBottom="15dp"
+                android:text="@string/a2" />
         </RelativeLayout>
 
         <TextView

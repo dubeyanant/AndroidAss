@@ -14,7 +14,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="100dp"
         android:gravity="center"
-        android:text="Name: Anant Dubey\nPRN: 1132220920"
+        android:text=""
         android:textSize="20sp" />
 
     <LinearLayout
@@ -25,19 +25,22 @@
 
         <Button
             android:id="@+id/redBtn"
+            style="?android:attr/buttonBarButtonStyle"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginEnd="5dp"
             android:backgroundTint="@color/redd"
-            android:text="Red" />
+            android:text="@string/red"
+            android:textColor="#000000" />
 
         <Button
             android:id="@+id/skyBtn"
+            style="?android:attr/buttonBarButtonStyle"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginStart="5dp"
             android:backgroundTint="@color/sky"
-            android:text="Sky"
+            android:text="@string/sky"
             android:textColor="@color/black" />
     </LinearLayout>
 

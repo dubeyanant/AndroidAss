@@ -13,7 +13,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="100dp"
         android:gravity="center"
-        android:text="Name: Anant Dubey\nPRN: 1132220920"
+        android:text=""
         android:textSize="20sp" />
 
     <EditText
@@ -22,8 +22,10 @@
         android:layout_height="wrap_content"
         android:layout_marginHorizontal="20dp"
         android:layout_marginTop="150dp"
-        android:hint="Enter 1st number"
-        android:inputType="number" />
+        android:autofillHints="integer"
+        android:hint="@string/enter_1st_number"
+        android:inputType="number"
+        android:minHeight="48dp" />
 
     <EditText
         android:id="@+id/second"
@@ -31,14 +33,17 @@
         android:layout_height="wrap_content"
         android:layout_marginHorizontal="20dp"
         android:layout_marginTop="10dp"
-        android:hint="Enter 2nd number"
-        android:inputType="number" />
+        android:autofillHints="integer"
+        android:hint="@string/enter_2nd_number"
+        android:inputType="number"
+        android:minHeight="48dp" />
 
     <Button
         android:id="@+id/feb16Button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="50dp"
-        android:text="Add" />
+        android:text="@string/add"
+        android:textColor="#212121" />
 
 </LinearLayout>

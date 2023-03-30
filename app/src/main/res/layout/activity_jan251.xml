@@ -14,7 +14,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="100dp"
         android:gravity="center"
-        android:text="Name: Anant Dubey\nPRN: 1132220920"
+        android:text=""
         android:textSize="20sp" />
 
     <RadioGroup
@@ -27,25 +27,25 @@
             android:id="@+id/red"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Red" />
+            android:text="@string/red" />
 
         <RadioButton
             android:id="@+id/cream"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Cream" />
+            android:text="@string/cream" />
 
         <RadioButton
             android:id="@+id/sky"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="SkyBlue" />
+            android:text="@string/skyblue" />
 
         <RadioButton
             android:id="@+id/navy"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="NavyBlue" />
+            android:text="@string/navyblue" />
     </RadioGroup>
 
 </LinearLayout>

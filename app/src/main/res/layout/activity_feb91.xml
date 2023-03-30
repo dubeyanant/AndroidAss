@@ -13,7 +13,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="100dp"
         android:gravity="center"
-        android:text="Name:\nPRN:"
+        android:text=""
         android:textSize="20sp" />
 
     <EditText
@@ -23,8 +23,10 @@
         android:layout_below="@+id/textViewId"
         android:layout_marginHorizontal="40dp"
         android:layout_marginTop="40dp"
-        android:hint="Number 1"
-        android:inputType="number" />
+        android:autofillHints="integers"
+        android:hint="@string/number_1"
+        android:inputType="number"
+        android:minHeight="48dp" />
 
     <EditText
         android:id="@+id/secondNumber"
@@ -32,8 +34,10 @@
         android:layout_height="wrap_content"
         android:layout_below="@+id/firstNumber"
         android:layout_marginHorizontal="40dp"
-        android:hint="Number 2"
-        android:inputType="number" />
+        android:autofillHints="integers"
+        android:hint="@string/number_2"
+        android:inputType="number"
+        android:minHeight="48dp" />
 
     <Button
         android:id="@+id/add"
@@ -43,7 +47,8 @@
         android:layout_alignParentStart="true"
         android:layout_marginStart="40dp"
         android:layout_marginTop="40dp"
-        android:text="Add" />
+        android:text="@string/add"
+        android:textColor="#212121" />
 
     <Button
         android:id="@+id/subtract"
@@ -53,7 +58,8 @@
         android:layout_alignParentEnd="true"
         android:layout_marginTop="40dp"
         android:layout_marginEnd="40dp"
-        android:text="Subtract" />
+        android:text="@string/subtract"
+        android:textColor="#212121" />
 
     <Button
         android:id="@+id/multiply"
@@ -63,7 +69,8 @@
         android:layout_alignParentStart="true"
         android:layout_marginStart="40dp"
         android:layout_marginTop="20dp"
-        android:text="Multiply" />
+        android:text="@string/multiply"
+        android:textColor="#212121" />
 
     <Button
         android:id="@+id/divide"
@@ -73,6 +80,7 @@
         android:layout_alignParentEnd="true"
         android:layout_marginTop="20dp"
         android:layout_marginEnd="40dp"
-        android:text="Divide" />
+        android:text="@string/divide"
+        android:textColor="#212121" />
 
 </RelativeLayout>

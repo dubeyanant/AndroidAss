@@ -12,7 +12,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="52dp"
         android:gravity="center"
-        android:text="Name: Anant Dubey\nPRN: 1132220920"
+        android:text=""
         android:textSize="20sp"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -31,7 +31,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="520dp"
         android:gravity="center"
-        android:text="Name"
+        android:text="@string/name"
         android:textSize="20sp"
         android:textStyle="bold"
         app:layout_constraintTop_toTopOf="parent"
@@ -48,17 +48,21 @@
 
         <Button
             android:id="@+id/prev"
+            style="?android:attr/buttonBarButtonStyle"
             android:layout_width="120dp"
             android:layout_height="wrap_content"
-            android:layout_marginRight="5dp"
-            android:text="Previous" />
+            android:layout_marginEnd="5dp"
+            android:text="@string/previous"
+            android:textColor="#0277BD" />
 
         <Button
             android:id="@+id/next"
+            style="?android:attr/buttonBarButtonStyle"
             android:layout_width="120dp"
             android:layout_height="wrap_content"
-            android:layout_marginLeft="5dp"
-            android:text="Next" />
+            android:layout_marginStart="5dp"
+            android:text="@string/next"
+            android:textColor="#0277BD" />
 
     </LinearLayout>
 

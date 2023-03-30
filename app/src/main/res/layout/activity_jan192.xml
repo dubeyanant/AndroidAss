@@ -18,7 +18,7 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="100dp"
             android:gravity="center"
-            android:text="Name: Anant Dubey\nPRN: 1132220920"
+            android:text=""
             android:textSize="20sp" />
 
         <TextView
@@ -27,7 +27,7 @@
             android:layout_height="100dp"
             android:layout_marginTop="100dp"
             android:gravity="bottom|end"
-            android:text="0"
+            android:text="@string/_0"
             android:textSize="60sp" />
 
 
@@ -35,16 +35,22 @@
 
             <Button
                 android:layout_marginHorizontal="2dp"
-                android:text="CE" />
+                android:text="@string/ce"
+                android:textColor="#212121"
+                style="?android:attr/buttonBarButtonStyle" />
 
             <Button
                 android:layout_marginHorizontal="2dp"
-                android:text="C" />
+                android:text="@string/c"
+                android:textColor="#212121"
+                style="?android:attr/buttonBarButtonStyle" />
 
             <Button
                 android:layout_marginHorizontal="2dp"
                 android:layout_weight="1"
-                android:text="DELETE" />
+                android:text="@string/delete"
+                android:textColor="#212121"
+                style="?android:attr/buttonBarButtonStyle" />
 
         </TableRow>
 
@@ -52,21 +58,29 @@
 
             <Button
                 android:layout_marginHorizontal="2dp"
-                android:text="7" />
+                android:text="@string/_7"
+                android:textColor="#212121"
+                style="?android:attr/buttonBarButtonStyle" />
 
             <Button
                 android:layout_marginHorizontal="2dp"
-                android:text="8" />
+                android:text="@string/_8"
+                android:textColor="#212121"
+                style="?android:attr/buttonBarButtonStyle" />
 
             <Button
                 android:layout_marginHorizontal="2dp"
                 android:layout_weight="1"
-                android:text="9" />
+                android:text="@string/_9"
+                android:textColor="#212121"
+                style="?android:attr/buttonBarButtonStyle" />
 
             <Button
                 android:layout_marginHorizontal="2dp"
                 android:layout_weight="1"
-                android:text="+" />
+                android:text="@string/plus"
+                android:textColor="#212121"
+                style="?android:attr/buttonBarButtonStyle" />
 
         </TableRow>
 
@@ -74,21 +88,29 @@
 
             <Button
                 android:layout_marginHorizontal="2dp"
-                android:text="4" />
+                android:text="@string/_4"
+                android:textColor="#212121"
+                style="?android:attr/buttonBarButtonStyle" />
 
             <Button
                 android:layout_marginHorizontal="2dp"
-                android:text="5" />
+                android:text="@string/_5"
+                android:textColor="#212121"
+                style="?android:attr/buttonBarButtonStyle" />
 
             <Button
                 android:layout_marginHorizontal="2dp"
                 android:layout_weight="1"
-                android:text="6" />
+                android:text="@string/_6"
+                android:textColor="#212121"
+                style="?android:attr/buttonBarButtonStyle" />
 
             <Button
                 android:layout_marginHorizontal="2dp"
                 android:layout_weight="1"
-                android:text="-" />
+                android:text="@string/minus"
+                android:textColor="#212121"
+                style="?android:attr/buttonBarButtonStyle" />
 
         </TableRow>
 
@@ -96,21 +118,29 @@
 
             <Button
                 android:layout_marginHorizontal="2dp"
-                android:text="1" />
+                android:text="@string/_1"
+                android:textColor="#212121"
+                style="?android:attr/buttonBarButtonStyle" />
 
             <Button
                 android:layout_marginHorizontal="2dp"
-                android:text="2" />
+                android:text="@string/_2"
+                android:textColor="#212121"
+                style="?android:attr/buttonBarButtonStyle" />
 
             <Button
                 android:layout_marginHorizontal="2dp"
                 android:layout_weight="1"
-                android:text="3" />
+                android:text="@string/_3"
+                android:textColor="#212121"
+                style="?android:attr/buttonBarButtonStyle" />
 
             <Button
                 android:layout_marginHorizontal="2dp"
                 android:layout_weight="1"
-                android:text="*" />
+                android:text="@string/multiply_symbol"
+                android:textColor="#212121"
+                style="?android:attr/buttonBarButtonStyle" />
 
         </TableRow>
 
@@ -118,21 +148,29 @@
 
             <Button
                 android:layout_marginHorizontal="2dp"
-                android:text="0" />
+                android:text="@string/_0"
+                android:textColor="#212121"
+                style="?android:attr/buttonBarButtonStyle" />
 
             <Button
                 android:layout_marginHorizontal="2dp"
-                android:text="." />
+                android:text="@string/dot_symbol"
+                android:textColor="#212121"
+                style="?android:attr/buttonBarButtonStyle" />
 
             <Button
                 android:layout_marginHorizontal="2dp"
                 android:layout_weight="1"
-                android:text="=" />
+                android:text="@string/equal"
+                android:textColor="#212121"
+                style="?android:attr/buttonBarButtonStyle" />
 
             <Button
                 android:layout_marginHorizontal="2dp"
                 android:layout_weight="1"
-                android:text="/" />
+                android:text="@string/divide_symbol"
+                android:textColor="#212121"
+                style="?android:attr/buttonBarButtonStyle" />
 
         </TableRow>
     </TableLayout>

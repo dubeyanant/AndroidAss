@@ -14,7 +14,7 @@
         android:layout_marginTop="50dp"
         android:layout_marginBottom="50dp"
         android:gravity="center"
-        android:text="Name: Anant Dubey\nPRN: 1132220920"
+        android:text=""
         android:textSize="20sp" />
 
     <ExpandableListView
